@@ -1,0 +1,61 @@
+body { background-color: #cccccc;
+}
+
+main {
+  background-color: #ffffff;
+}
+
+header{
+  color: blue;
+}
+
+h1{
+  Color:red;
+  background-color: #000000;
+}
+
+a {
+ color: #ff0000;
+}
+
+a:visited {
+ color: #00ff00;
+}
+
+a:hover {
+ color: #ffff00;
+}
+
+#divexample {
+  color: #0000ff;
+  background-color: #ffff00;
+}
+
+.spanstyle {
+  color: #00ff00
+}
+
+h2{
+  Color:red;
+    background-color: #000000;
+}
+
+p{color:red;
+}
+.customtext {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.zeroout {
+  margin: 0;
+  padding: 0;
+}
+
+#specialid {
+ color: #00ff00;
+ background-color: #000000;
+}
+
+.specialp {
+ color: #0000ff;
+}
