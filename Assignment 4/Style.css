@@ -1,57 +1,49 @@
-body { background-color: #cccccc;
+body{
+  background-color: #cccccc;
+  font-family: Helvetica, sans-serif;
+  background-image: url(pumpkin.jpg);
 }
 
-/* CSS */
+main{
+  background-color: #0000ff;
+  border: 10px solid red
+}
+
+h1 {  font-weight: normal;
+      font-size: 24px;
+      color: orange;
+      font-style: italic;
+    }
+
+h2 {
+  font-weight: normal;
+  font-size: 24px;
+  color: orange;
+  font-style: italic;
+}
+
 .customtext {
 font-family: Arial, Helvetica, sans-serif;
 font-style: italic;
-font-weight: bold;
-font-size: 20px;
 }
 
-main {
-  background-color: #ffffff;
+.imgbox {
+border: 5px solid black;
+padding: 10px;
+background-color: #FFFFFF
+margin: 20px
 }
 
-header{
-  color: blue;
+.boxmodel {
+  border: 2px solid #0000ff
+  padding: 20px 20px 20px 20px;
+  margin: 10px 10px 10px 10px;
 }
 
-h1{
-  Color:red;
-  background-color: #000000;
-}
-
-a {
- color: #ff0000;
-}
-
-a:visited {
- color: #00ff00;
-}
-
-a:hover {
- color: #ffff00;
-}
-
-#divexample {
-  color: #0000ff;
-  background-color: #ffff00;
-}
-
-.spanstyle {
-  color: #00ff00
-}
-
-h2{
-  Color:red;
-    background-color: #000000;
-}
-
-p{color:red;
-}
-.customtext {
-  font-family: Arial, Helvetica, sans-serif;
+.otherbox {
+  padding: 10px
+  margin: 20px
+  border: 1px solid #00ff00;
 }
 
 .zeroout {
@@ -59,11 +51,16 @@ p{color:red;
   padding: 0;
 }
 
-#specialid {
- color: #00ff00;
- background-color: #000000;
+.pwidth {
+  border: 1px solid #ff0000
+width: 100px;
+padding: 10px;
 }
 
-.specialp {
- color: #0000ff;
+.center {
+text-align: center;
+}
+
+.textjustify {
+  text align: justify;
 }
