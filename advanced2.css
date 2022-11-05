@@ -1,4 +1,8 @@
-body { background-color: #999999;}
+body {
+  background-image: url(a62.png);
+  background-color: #999999;}
+
+a {color: red!important;}
 
 #wrapper{
   width:960px;
@@ -6,6 +10,59 @@ body { background-color: #999999;}
   background-color: #ffffff;
   margin: 1em auto;
   padding: 1em;
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+  grid-template-rows:  auto;
+}
+
+header {
+  border: 1px solid black;
+  grid-column: span 12;
+}
+
+nav {
+  border: 1px solid black;
+  grid-column: span 3;
+}
+main {
+  border: 1px solid black;
+  grid-column: span 9;
+}
+
+nav li {
+  display: inline;
+  padding: 0;
+  margin: 10px;
+/*  width: 150px; */
+  color: red;
+}
+
+}
+nav li {
+  display: inline-block;
+  padding: 0;
+  margin: 10px;
+  width: 150px;
+  color: red;
+}
+
+nav li a {
+  color: white!important;
+  display: block;
+  border: 1px solid #000000;
+  padding: 10px;
+  background-color: red;
+
+}
+
+nav li a:hover {
+  background-color: red;
+
+}
+
+footer {
+  grid-template-columns: span 12;
+  border: 1px solid black;
 }
 
 .floatimage {
@@ -14,9 +71,12 @@ body { background-color: #999999;}
   margin: 0 20px 20px 0;
 }
 
-.p2{
-  clear:both;
+.p2 {
+  clear: both;
 }
 
 .p1, .p2 {
+}
+
+a {color: blue;
 }
