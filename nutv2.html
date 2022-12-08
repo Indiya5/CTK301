@@ -6,7 +6,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
     <link href="webfonts.css" rel="stylesheet" type="text/css" />
 
 </head>
@@ -23,11 +25,40 @@
 
 <main>
   <img src="nutv.jpg"height="300" alt="NuTv" >
+
+  <a href="nutv.jpg" data-fancybox="gallery" data-caption="nutv">
+
+</a>
+<a href="IMG_1899.jpg" data-fancybox="gallery" data-caption="Ice Cream">
+
+</a>
+<a href="IMG_1900" data-fancybox="gallery" data-caption="Water">
+
+</a>
+
+<div id="myCarousel" class="carousel">
+    <div class="carousel__slide"><img src="nutv.jpg"></div>
+    <div class="carousel__slide"><img src="IMG_1899.jpg"></div>
+    <div class="carousel__slide"><img src="IMG_1900.jpg"></div>
+</div>
+
 <h2> The Importance Of Networking and Tips ‼️</h2>
 As we travel through this journey of enlightenment called colledge; we will have classes with people you have't seen before. Complete strangers!! Some of your peers may be on a similar path as you. The key is to networking is similar to that of a job search. You should also have something to offer to that person so one tip would be to work on yourself and your craft. You should be prepared for the unexpected. That one person you never imagined speaking to just may be the person who has the answers your looking for. So in short terms be open minded.
 </main>
 <footer>
   <p>Thank You For Visiting My Page. Please feel free to click through any of my helpul tips. You will find Networking tips, Adobe Creative Cloud Information and Much More‼️</p>
+<i class="bi bi-instagram"></i>
+<a href="https://instagram.com" target="_blank" class="bi bi-instagram"></a>
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-7-circle" viewBox="0 0 16 16">
+  <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM5.37 5.11V4.001h5.308V5.15L7.42 12H6.025l3.317-6.82v-.07H5.369Z"/>
+</svg>
+
 </footer>
+
+<script>
+  const myCarousel = new Carousel(document.querySelector("#myCarousel"), {
+    // Your options go here
+  });
+</script>
   </body>
 </html>
